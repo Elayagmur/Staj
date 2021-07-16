@@ -1,4 +1,5 @@
 body {
+ 
  background-color: #E6E6E6;
  margin:70px;
  font-family: "Times New Roman", Times, serif;
@@ -7,7 +8,8 @@ body {
 
  header{
   background-color: #E6E6E6;
-  
+  border-top: 4px solid rgb(51, 103, 214);
+  margin: 0;
  }
  .contact{
 text-align: right;}
@@ -33,9 +35,7 @@ font-size: 60px;
 font-weight: 30px;
 margin:0;
  }
- h3{
-margin:0;
- }
+ 
  i{
 font-size: 20px;
 margin-top:10px;
@@ -48,18 +48,47 @@ font-weight: normal;
 color:#101010;
 }
 .table1__td{
-width:400px;
-
+width:600px;
+margin-left:325px;
 }
 
  th {
   text-align: left;
   white-space: wrap;
+  width:150px;
  }
- td {
- 
+ .table3{
+ border-collapse: collapse;
+ width: 60%;
+margin-left: 200px;  
+margin-top:-30px;         
+ }
+ .table3__td {
+ padding: 8px;
+text-align: left;
+border-bottom: 1px solid rgb(79, 74, 75);
  white-space: wrap;
  }
+ .table4{
+  border-bottom: 1px solid rgb(79, 74, 75);             
+ }
+ .table4__time{
+text-align:right;
+ }
+
+
+ .edu__p{
+font-size:25px;
+font-weight:normal;
+margin-left:200px;
+font-family:"Times New Roman", Times, serif;
+margin-bottom: -20px;
+ }
  footer{
-color :red;
+text-align: center;
+font-size: 14px;
+color:rgb(79, 74, 75);
+font-family:"Times New Roman", Times, serif;
+
+border-bottom: 2px solid rgb(51, 103, 214);
  }
