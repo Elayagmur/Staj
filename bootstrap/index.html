@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .stretch-card > .card {
+	width: 100%;
+	min-width: 100%;
+}
+
+body {
+	background-color: #f9f9fa;
+}
+
+.flex {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+@media (max-width: 991.98px) {
+	.padding {
+		padding: 1.5rem;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.padding {
+		padding: 1rem;
+	}
+}
+
+.padding {
+	padding: 3rem;
+}
+
+.card {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+}
+
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid #3da5f;
+	border-radius: 0;
+}
+
+.card .card-body {
+	padding: 1.25rem 1.75rem;
+}
+
+.card .card-title {
+	color: #000000;
+	margin-bottom: 0.625rem;
+	text-transform: capitalize;
+	font-size: 0.875rem;
+	font-weight: 500;
+}
+
+.card .card-description {
+	margin-bottom: 0.875rem;
+	font-weight: 400;
+	color: #76838f;
+}
+
+.btn.btn-social-icon {
+	width: 50px;
+	height: 50px;
+	padding: 0;
+}
+
+.template-demo > .btn {
+	margin-right: 0.5rem !important;
+}
+
+.template-demo {
+	margin-top: 0.5rem !important;
+}
+
+.btn.btn-rounded {
+	border-radius: 50px;
+}
+
+
+.btn-facebook {
+	background: #3b579d;
+	color: #ffffff;
+}
+
+
+.btn-twitter {
+	background: #2caae1;
+	color: #ffffff;
+}
+
+.btn-github {
+	background:#000000;
+	color: #ffffff;
+}
+
+.btn-linkedin {
+	background: #0177b5;
+	color: #ffffff;
+}
+
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+	background: #2d4278;
+	color: #ffffff;
+}
+
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+	background: #1b8dbf;
+	color: #ffffff;
+}
+
+.btn-github:hover,
+.btn-github:focus {
+	background:#000000;
+	color: #ffffff;
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+	background: #015682;
+	color: #ffffff;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+<br><br>
+<nav class="navbar d-flex justify-content-between navbar-expand-sm navbar-dark ">
+<ul class="nav nav-pills ">
+  <li class="nav-item ">
+    <a class="nav-link active " data-toggle="pill" href="#home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="#menu">Menu </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="pill" href="#contact">Contact us</a>
+  </li>
+</ul>
+<form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+    <button class="btn btn-outline-primary" type="submit">Search</button>
+  </form>
+  </nav>
+<br><br>
+<!--main-->
+<div class="tab-content">
+  <div class="tab-pane container active" id="home">
+  <div class="jumbotron">
+  <h1 class="text-dark d-flex justify-content-center">WELCOME To Ela's Food Shopping...</h1>
+</div>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1447078806655-40579c2520d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80.jpg" alt="heathy food" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Heathy Food</h3>
+        <p>We have many options for healthy meals...!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1610614819513-58e34989848b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80.jpg" alt="fast food" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Fast Food</h3>
+        <p>We know that it is unhealthy but! We have many types of fast food</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1506224477000-07aa8a76be20?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80.jpg" alt="Sweets" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Sweets</h3>
+        <p>We love Sweets ;)</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<br>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<!--2.page-->
+  <div class="tab-pane container fade" id="menu">
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          Healthy Food
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+         A healthy diet is one that helps maintain and develop general health, and it means the diet that leads to the improvement of the health of the individual. "Micronutrients" that the body needs in small quantities to promote its growth, and improve it, in addition to sufficient calories for the body.
+
+There are many innovated diets, whose owners are prepared with varied results, but they are not based on a scientific basis. These regimes create confusion about what is healthy food, and give unnecessary false impressions about what could be unhealthy. These regimes are fiercely promoted.
+
+For people who adopt a healthy approach, a healthy diet is not as complicated as some think, as it contains mostly fruits and vegetables, with a complete reduction or prevention of processed foods and sweetened beverages; and the requirements of this system can be obtained from several animal sources, except those who are vegetarian or vegan. A vegan diet needs to get vitamin B12 from a non-animal source. There are many guidelines published by medical and food governmental organizations; To educate people about what they need to eat in order to be healthy. This is in addition to the fact that food information labels on products are mandatory in several countries, in order to give the consumer the opportunity to choose what suits him best. Based on which one contains the healthiest ingredients.
+
+A healthy diet, in addition to healthy nutrition, includes daily exercise, and this method can reduce the risk of diseases such as obesity, heart disease, diabetes, high blood pressure, and cancer.
+        </div>
+        <div class="container">
+        <table class=" table table-borderless">
+            <tbody>
+                <tr>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1465014925804-7b9ede58d0d7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=411&q=80.jpg"></td>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/reserve/oMRKkMc4RSq7N91OZl0O_IMG_8309.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80.jpg"></td>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1475855664010-a869729f42c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=625&q=80.jpg"></td>
+
+                </tr>
+                <tr>
+                    <td>Egg</td>
+                    <td>Salata</td>
+                    <td>Sweet</td>
+                </tr>
+                <tr>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1606858374191-c18040e98ad7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80.jpg"></td>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1505714197102-6ae95091ed70?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80.jpg"></td>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1556909114-a1d34f47412c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80.jpg"></td>
+                    
+
+                </tr>
+                <tr>
+                    <td>Fish</td>
+                    <td>Salata</td>
+                    <td>Chicken soup</td>
+                </tr>
+        
+        
+            </tbody>
+        </table>
+    </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        Fast Food
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+         <div class="container">
+        <table class=" table table-borderless">
+            <tbody>
+                <tr>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1512152272829-e3139592d56f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80.jpg"></td>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1528279027-68f0d7fce9f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80.jpg"></td>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1613319300832-a105da5bd34e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=575&q=80.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Burger</td>
+                </tr>
+                <tr>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1598206572429-f02335a5edc6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80.jpg"></td>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1620374645310-f9d97e733268?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80.jpg"></td>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1539451652256-f485173cab9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Pizza</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+         Sweets
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+       <div class="container">
+        <table class=" table table-borderless">
+            <tbody>
+                <tr>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1565004602745-718e1b0d44f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=390&q=80.jpg"></td>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1519869325930-281384150729?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=747&q=80.jpg"></td>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1558326567-98ae2405596b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=396&q=80.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Dessert</td>
+                </tr>
+                <tr>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1622028715355-ec58f12a7f9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=374&q=80.jpg"></td>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1602296751259-edfb8274b682?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80.jpg"></td>
+                    <td><img style="width:300px;height:300px;" src="https://images.unsplash.com/photo-1618426703623-c1b335803e07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80.jpg"></td>
+                </tr>
+                <tr>
+                    <td>Kek</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+      </div>
+    </div>
+  </div></div>
+
+  <!--3.page-->
+  <div class="tab-pane container fade" id="contact"><div class="container">
+ <br><br>
+ <div class="card-deck">
+  <div class="card bg-danger">
+    <img class="card-img-top" src="https://images.unsplash.com/photo-1612628131357-34c54b5d973e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGh1bWFuJTIwcGhvdG98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Karlene Faith</h4>
+    <p class="card-text">Some example text.Some example text.Some example text</p>
+    <a href="KarleneFaith@gmail.com" class="btn btn-outline-dark btn-light">Email Me </a>
+  </div>
+  </div>
+  <div class="card bg-warning">
+    <img class="card-img-top" src="https://images.unsplash.com/photo-1612601006505-1254db3e290d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGh1bWFuJTIwcGhvdG98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.Some example text.Some example textSome example text.Some example text</p>
+    <a href="JohnDoe@gmail.com" class="btn btn-outline-dark btn-light">Email Me </a>
+  </div>
+  </div>
+  <div class="card bg-success">
+    <img class="card-img-top" src="https://images.unsplash.com/photo-1623864653909-0104b412f75d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGh1bWFuJTIwcGhvdG98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Mia John</h4>
+    <p class="card-text">Some example text.Some example text.Some example text.Some example text.Some example text.Some example text.Some example text.</p>
+       <a href="MiaJohn@gmail.com" class="btn btn-outline-dark btn-light">Email Me </a>
+  </div>
+  </div>
+
+</div>
+<br>
+ <form action="/action_page.php">
+<div class="form-group">
+  <label for="comment">Comment:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea></div>
+   <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+  </div></div>
+     
+</div>
+<footer>
+<div class="page-content page-container" id="page-content">
+	<div class="padding">
+		<div class="row container d-flex justify-content-center">
+			<div class="col-md-6 grid-margin stretch-card">
+				<div class="card">
+					<div class="card-body">
+						<h4 class="card-title d-flex justify-content-center">Follow us on social media </h4>
+						<div class="template-demo d-flex justify-content-center"> <button type="button" class="btn btn-social-icon btn-facebook btn-rounded"><i class="fab fa-facebook-f"></i></button>
+            <button type="button" class="btn btn-social-icon btn-twitter btn-rounded"><i class="fab fa-twitter"></i></button>
+             <button type="button" class="btn btn-social-icon btn-github btn-rounded"><i class="fab fa-github"></i></button>
+              <button type="button" class="btn btn-social-icon btn-linkedin btn-rounded"><i class="fab fa-linkedin-in"></i></button> 
+               </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
+ </div>
+</body>
+</html>
