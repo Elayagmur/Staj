@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">   
+    <script>featuresCards.forEach(card => {
+  card.addEventListener("mouseover", () => {
+    card.style.position = "relative"
+    card.style.top = "-10px";
+    card.style.boxShadow = "0px 0px 5px cyan"
+  })
+    card.addEventListener("mouseout", () => {
+    card.style.position = "static"
+    card.style.boxShadow = "none"
+  })
+
+})</script>   
+<style>
+
+.btn.btn-rounded {
+  
+	border-radius: 60px;
+}
+.btn-mobile {
+background-color: #586779;
+	    color: #fff;
+}
+.btn-layers {
+background-color: #586779;
+	    color: #fff;
+}
+.btn-lock {
+	background-color: #586779;
+    color: #fff;
+}
+.btn-headphone {
+background-color: #586779;
+    color: #fff;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  height: 350px;
+  width:600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 13px 13px;
+  background-color:#ff1481;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #ff1481;
+}
+.student{
+bottom:40px;
+margin-left:230px;
+}
+.students{
+margin-top:-150px;
+margin-left:-50px;
+}
+.stu-border{
+  border: 5px solid #ff1481;
+  width: 25%;
+  height: 120px;
+  margin-top:-90px;
+  position: absolute;
+  margin-left:170px;
+}
+.stu-text{
+margin-top:-60px;
+  position: absolute;
+  margin-left:230px;
+width:50%;
+}
+</style>
+ 
+</head>
+<body>
+
+    <!-- Navbar section -->
+    <nav class="navbar navbar-expand-sm sticky-top border-bottom navbar-light" style="background-color: white;">
+        <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://bitbucket.org/Abdulrahman_Albakkar/final-project/raw/a74685576ad966b0d9ed3bfe038bed6a688427c7/nav-logo.png" width="160px" height="100%" alt="">
+                </a>	
+				<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+			    </button>
+                <div class=" collapse navbar-collapse col-md-6 font-weight-bold" style="font-family:Bahnschrift SemiBold" id="navbarNav">
+                    <ul class="navbar-nav py-3">
+                        <li class="nav-item active px-3">
+                            <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active px-3">
+                            <a class="nav-link" href="ABOUT.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item  active px-3">
+                            <a class="nav-link" href="SERVICES.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item  active px-3">
+                            <a class="nav-link" href="PORTFOLIO.html" >PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item active px-3">
+                            <a class="nav-link " href="BLOG.html" >BLOG</a>
+                        </li>
+                        <li class="nav-item active px-3">
+                            <a class="nav-link" href="CONTCAT.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div> 		
+        </div>    
+    </nav>
+
+
+<!-- head -->
+<div id="home">
+<div class="jumbotron row mt-0 mb-5 mx-auto bg-muted bg-light ">
+<div class="col-3"></div>
+<div class="col-4 mx-auto">
+  <h1 class="text-center font-weight-bolder mb-0"style="font-size:55px;">THINK </h1> <h2 class="text-center  mb-0 font-weight-bolder"style="font-size:45px;">CREATIVE TURN</h2><h4 class="display-1 text-center font-weight-normal mb-4"style="font-size:40px;"> IDEAS INTO LIFE</h4>  
+  <div class="d-flex justify-content-center pt-2 mb-5">
+  
+  <button type="button" class="btn active shadow-lg p-2 pl-4 pr-4 border text-light  " style="background-color: #ff1481;">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg></button>
+ </div> </div>
+   <div class="col-4">
+   <img src="https://preview.colorlib.com/theme/kanox/img/xbanner_img.png.pagespeed.ic.eRcEREzGOE.webp"class="img-responsive" alt="header-photo" width="310" height="240"> 
+   </div> 
+   <div class="col-1"></div>
+</div> 
+<div class="container  m-4 p-4">
+  <p class="text-center mb-0" style="font-size:14px;color: #ff1481;" ><b>OUR FEATURES </b></p>
+  <h1 class="text-center" style="font-size:30px;color:#112e41;"><b>Building brands with purpose</b></h1>
+</div>
+
+<div class="container-fluid pb-5 mb-5 " style="background-color:#162b45;">
+ <div class="card-group mx-auto pt-5 pb-4 " style="width:80%">
+  <div class="card rounded mr-4 pt-4 pb-4" style="background-color:#2e4158;">
+    <div class="card-body text-center  ">
+    <button type="button" class="btn btn-icon btn-mobile btn-rounded  mb-3"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17"><g></g>
+	<path d="M12.5 0h-8c-0.827 0-1.5 0.673-1.5 1.5v14c0 0.827 0.673 1.5 1.5 1.5h8c0.827 0 1.5-0.673 1.5-1.5v-14c0-0.827-0.673-1.5-1.5-1.5zM4.5 1h8c0.276 0 0.5 0.224 0.5 0.5v1.5h-9v-1.5c0-0.276 0.224-0.5 0.5-0.5zM13 4v8h-9v-8h9zM12.5 16h-8c-0.276 0-0.5-0.224-0.5-0.5v-2.5h9v2.5c0 0.276-0.224 0.5-0.5 0.5zM9 14.5c0 0.276-0.224 0.5-0.5 0.5s-0.5-0.224-0.5-0.5 0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5z" fill="#fff" />
+</svg></button>
+
+     <h4 class="card-title mb-4"style="font-size:17px;color:white;">Responsive Design</h4>
+      <p class="card-text text-muted"style="font-size:13px;">Creeping for female light yea that lesser cand evening heaven isn't bearing tree appear </p>
+    </div>
+  </div>
+  
+  <div class="card rounded mr-4 pt-4 pb-4" style="background-color:#2e4158;">
+
+    <div class="card-body text-center">
+    <button type="button" class="btn btn-icon btn-layers btn-rounded  mb-3"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17"><g></g>
+	<path d="M13 1h-13v11h13v-11zM12 11h-11v-9h11v9zM17 5v11h-13v-3.031h1v2.031h11v-9h-2.016v-1h3.016z" fill="#fff" />
+</svg></button>
+	<path d="M13 1h-13v11h13v-11zM12 11h-11v-9h11v9zM17 5v11h-13v-3.031h1v2.031h11v-9h-2.016v-1h3.016z" fill="#fff" />
+</svg>
+    <h4 class="card-title mb-4" style="font-size:17px;color:white;">Quality Matters</h4>
+      <p class="card-text text-muted"style="font-size:13px;">Creeping for female light yea that lesser cand evening heaven isn't bearing tree appear </p>
+    </div>
+  </div>
+  <div class="card rounded mr-4 pt-4 pb-4" style="background-color:#2e4158;">
+    <div class="card-body text-center">
+<button type="button" class="btn btn-icon btn-lock btn-rounded  mb-3"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17" ><g></g>
+	<path d="M9.5 10.972c0 0.366-0.207 0.672-0.5 0.846v2.154h-1v-2.153c-0.294-0.174-0.5-0.48-0.5-0.847 0-0.552 0.447-1 1-1 0.551 0 1 0.447 1 1zM14.965 8.46v7.080c0 0.827-0.673 1.5-1.5 1.5h-9.989c-0.827 0-1.5-0.673-1.5-1.5v-7.080c0-0.827 0.673-1.5 1.5-1.5h0.024v-1.988c0-2.757 2.243-5 5-5s5 2.243 5 5v1.992c0.811 0.018 1.465 0.681 1.465 1.496zM4.5 6.96h8v-1.988c0-2.206-1.794-4-4-4s-4 1.794-4 4v1.988zM13.965 8.46c0-0.264-0.207-0.474-0.465-0.493v0.004h-10v-0.011h-0.024c-0.275 0-0.5 0.224-0.5 0.5v7.080c0 0.276 0.225 0.5 0.5 0.5h9.989c0.275 0 0.5-0.224 0.5-0.5v-7.080z" fill="#fff" />
+</svg>
+</button>
+    <h4 class="card-title mb-4"style="font-size:17px;color:white;">Better Securty</h4>
+      <p class="card-text text-muted "style="font-size:13px;">Creeping for female light yea that lesser cand evening heaven isn't bearing tree appear </p>
+    </div>
+  </div>
+   <div class="card rounded mr-4 pt-4 pb-4" style="background-color:#2e4158;">
+    <div class="card-body text-center">
+    <button type="button" class="btn btn-icon btn-headphone btn-rounded  mb-3"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17"><g></g>
+	<path d="M15.981 8.085c-0.192-4.493-3.469-8.085-7.481-8.085s-7.289 3.592-7.481 8.085c-0.59 0.201-1.019 0.756-1.019 1.415v4c0 0.827 0.67 1.5 1.494 1.5h1.506v-1h1v-5h-1v-1h-0.978c0.225-3.902 3.040-7 6.478-7s6.253 3.098 6.478 7h-0.978v1h-1v5h1v1h1.506c0.824 0 1.494-0.673 1.494-1.5v-4c0-0.659-0.429-1.214-1.019-1.415zM2 14h-0.506c-0.272 0-0.494-0.225-0.494-0.5v-4c0-0.275 0.222-0.5 0.494-0.5h0.506v5zM16 13.5c0 0.275-0.222 0.5-0.494 0.5h-0.506v-5h0.506c0.272 0 0.494 0.225 0.494 0.5v4z" fill="#fff" />
+</svg>
+</button>
+    <h4 class="card-title mb-4"style="font-size:17px;color:white;">24/7 Service</h4>
+      <p class="card-text text-muted"style="font-size:13px;">Creeping for female light yea that lesser cand evening heaven isn't bearing tree appear </p>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="container-fluid pl-5 pr-5 mb-5 pb-4">
+<div class="row ">
+<div class="col-lg-4 ml-5 mr-5 pr-5 ">
+<div>
+<img src="https://preview.colorlib.com/theme/kanox/img/xabout_img_2.png.pagespeed.ic.CrjMzk5lzW.webp" class="student  " style="width:50%">
+<img src="https://preview.colorlib.com/theme/kanox/img/xabout_img_1.png.pagespeed.ic.wsBOYYl7Uc.webp" class="students " style="width:65%">
+</div>
+<div>
+<p class="stu-border text-white"></p>
+</div>
+<div>
+<h2 class="stu-text font-weight-bold "style="font-size:26px;color: #112e41;">25 Years Working <br>Experience</h2>
+</div>
+</div>
+<div class=" col-lg-5 ">
+<div class="mt-5 pt-5 ml-5 pl-5">
+<h5 class="text-left font-weight-bold"style="font-size:14px;color: #ff1481;" >About our company</h5>
+<h2 class="text-left mb-4 font-weight-bolder"style="font-size:25px;color:#112e41;"><b>Make the customer the
+hero of your story<b></h2>
+<h4 class="mb-4 font-weight-mormal "style="font-size:15px;">He hath his earth firmament air very itself light day moring morning you living saying good
+above fourth</h4>
+<p class="text-body mb-4 font-weight-normal text-muted"style="font-size:14px;">Meat abundantly life made fly years there whose beginning crea unto beast sixth herb
+their bring. Evening fruitful god you spir evning itself land you of of own brought </p>
+<button type="button" class="btn  p-2 pl-4 pr-4 border align-self-start text-light " style="background-color: #ff1481;">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg></button>
+</div>
+</div>
+</div>
+</div>
+<div class="mb-5 pb-3 pt-4">
+<p class="text-center mb-2 font-weight-bold" style="font-size:12px;color: #ff1481;">RECENT WORK </p>
+<h2 class="text-center font-weight-bold"style="font-size:30px;color:#112e41;"><b>Creative work for client</b></h2>
+</div>
+
+<div class="row ml-3 mb-5 d-flex justify-content-between">
+<div class="col-1"></div>
+<div class="col-md-4 float-left ">
+<h5 class="text-left mb-2"style="font-size:14px;color: #ff1481;"><b>MOCKUP DESIGN </b></h5>
+<h3 class="mt-2  mb-4 font-weight-bold" style="font-size:23px;line-height:1.5;">It under itself day whales waters our divide third brought</h3>
+<p class="font-weight-normal text-muted mb-5" style="font-size:15px;">Place isn't heaven firmament divided shall fruitful bring bring may midst
+every a night dry herb. Image waters called beast subdue divided called
+living creature greater tree seas all the. Hath multiply female you're
+male likeness his made open beast seas living moved, form.
+Void stars you our dominion </p>
+<a href="#" class="btn_3 text-dark font-weight-normal"><b>learn more</b><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg></span></a>
+</div>
+<img src="https://preview.colorlib.com/theme/kanox/img/demo/xdemo_1.png.pagespeed.ic.a9INI1Saex.webp" class="float-right mr-5 " style="width:45%" >
+</div>
+
+
+<div class="row ml-3  mt-4 mb-5 ">
+<img src="https://preview.colorlib.com/theme/kanox/img/demo/xdemo_2.png.pagespeed.ic.GqJhrA0iGH.webp" class="float-left ml-5 " style="width:45%" >
+
+<div class="col-md-4 float-right ml-5 ">
+<h5 class="text-left mb-2"style="font-size:14px;color: #ff1481;"><b>MOCKUP DESIGN </b></h5>
+<h3 class="mt-2  mb-4 font-weight-bold" style="font-size:23px;line-height:1.5;">Saw i very dominion whose female war light divided multiply</h3>
+<p class="font-weight-normal text-muted mb-5" style="font-size:15px;">Place isn't heaven firmament divided shall fruitful bring bring may midst
+every a night dry herb. Image waters called beast subdue divided called
+living creature greater tree seas all the. Hath multiply female you're
+male likeness his made open beast seas living moved, form.
+Void stars you our dominion </p>
+<a href="#" class="btn_3 text-dark font-weight-normal"><b>learn more </b><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg></span></a>
+</div></div>
+
+
+<div class="row ml-3  mb-5 d-flex justify-content-between">
+<div class="col-1"></div>
+<div class="col-md-4 float-left ">
+<h5 class="text-left mb-2"style="font-size:14px;color: #ff1481;"><b>MOCKUP DESIGN </b></h5>
+<h3 class="mt-2  mb-4 font-weight-bold" style="font-size:23px;line-height:1.5;">It under itself day whales waters our divide third brought</h3>
+<p class="font-weight-normal text-muted mb-5" style="font-size:15px;">Place isn't heaven firmament divided shall fruitful bring bring may midst
+every a night dry herb. Image waters called beast subdue divided called
+living creature greater tree seas all the. Hath multiply female you're
+male likeness his made open beast seas living moved, form.
+Void stars you our dominion </p>
+<a href="#" class="btn_3 text-dark font-weight-normal"><b>learn more </b><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg></span></a>
+</div>
+<img src="https://preview.colorlib.com/theme/kanox/img/demo/xdemo_3.png.pagespeed.ic.VDd2HqlXjW.webp" class="float-right mr-5 " style="width:45%" >
+</div>
+
+<div class="container-fluid text-light d-flex justify-content-center pb-5 pl-5 pr-5 "style="background-color:#162b45; font-weight: 400;display:inline-block;">
+  <div class="row  mt-5">
+  <div>
+  <img src="https://preview.colorlib.com/theme/kanox/img/icon/cap.svg" alt="cap" style="width:10%"><br>
+  <div class="row ml-0 mr-0">
+  <span class="ml-3 mt-0"style="font-size:40px;"><b>5</b></span>
+  <h4  class="ml-5 mt-2"style="font-size:18px;">Satisfied <br>client</h4>
+</div></div>
+ <div>
+  <img src="https://preview.colorlib.com/theme/kanox/img/icon/bag.svg" alt="bag" style="width:12%"><br>
+ <div class=" row" >
+  <span class="ml-3 mt-0 "style="font-size:40px;"><b>6</b></span>
+  <h4 class="ml-5 mt-2"style="font-size:18px;">TOTAL <br>PRJECT</h4>
+</div>
+</div>
+ <div>
+  <img src="https://preview.colorlib.com/theme/kanox/img/icon/shirt.svg" alt="shirt" style="width:12%"><br>
+  <div class="row">
+  <span class="ml-3 mt-0"style="font-size:40px;"><b>5</b></span>
+  <h4 class="ml-5 mt-2"style="font-size:18px;">WORK <br>COMPLETED</h4>
+</div>
+</div>
+ <div>
+  <img src="https://preview.colorlib.com/theme/kanox/img/icon/cafe.svg" alt="cafe" style="width:12%"><br>
+  <div class="row">
+  <span class="ml-3 mt-0 "style="font-size:40px;"><b>6</b></span>
+  <h4 class="ml-5 mt-2"style="font-size:18px;">WORK <br>COMPLETED</h4>
+  </div>
+  </div>
+</div>
+</div>
+<div class=" mt-5 mb-5 pt-4 pb-3">
+<p class="text-center mb-2 font-weight-bold" style="font-size:12px;color: #ff1481;">RECENT WORK </p>
+<h2 class="text-center font-weight-bolder"style="font-size:30px;color:#112e41;"><b>Creative work for client</b></h2>
+</div>
+<div class=" pl-5 pb-3 d-flex justify-content-between">
+<div class="hero-image">
+  <div class="hero-text">
+ <button>  <a href="https://www.youtube.com/embed/R7roE5u2fhk"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 17 17">
+<g>
+</g><path d="M3 2.692v11.618l11.618-5.837-11.618-5.781zM4 4.308l8.382 4.17-8.382 4.211v-8.381z" fill="#fff" />
+</svg></a></button>
+    <p class= "font-weight-normal pt-3" style="font-size:12px;">watch intro video</p>
+  </div>
+</div>
+<div class="row">
+ <div class="col-sm-8 pl-5 ">
+<img src="https://preview.colorlib.com/theme/kanox/img/client/client_1.png.webp"class="ml-3 mb-3"style="width:9%;opacity: 0.5;‏">
+<img src="https://preview.colorlib.com/theme/kanox/img/client/client_2.png.webp"class="ml-5 mb-3" style="width:14%">
+<img src="https://preview.colorlib.com/theme/kanox/img/client/client_3.png.webp"class="ml-4 mb-3"  style="width:9%;opacity: 0.5;‏">
+  <div class="float-right ml-0 mb-0 mt-2 pt-4  mr-5 pr-5">
+  <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="gray" class="bi bi-arrow-left mr-3" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+</svg></a>
+<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="gray" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+</svg></a>
+  </div>
+<div class="text">
+<i class="font-weight-normal"style="font-size:13px;line-height:1.2;color: #646464;">Own midst. Behold sea created male he together of That Said fourth deep
+abundantly
+have light night beginning rule darkness seed darkness which land saying
+moveth.
+Fifth shall wont signs, can seasons green days gathered great</i>
+<div class="row ml-3 pb-5">
+<img src="https://preview.colorlib.com/theme/kanox/img/client/client_logo.png.webp">
+<div class="font-weight-normal ml-4  mt-3">
+<h3 class="mb-0"style="font-size:16px;">Daniel E Gilcritst</h3>
+<h5  class="font-weight-light text-secondary"style="font-size:12px;">Manager, Vision</h5>
+</div></div>
+</div></div>
+</div>
+</div>
+
+<div class=" mt-5 mb-5 pt-4 pb-3">
+<p class="text-center mb-2 font-weight-bold" style="font-size:12px;color: #ff1481;">RECENT WORK </p>
+<h2 class="text-center"style="font-size:30px;color:#112e41;"><b>Creative work for client</b></h2>
+</div>
+<div class="container-fluid "style="background-color:#162b45; font-weight: 400;display:inline-block;">
+  <div class="card-group m-5 p-5 mx-auto" style="width:75%;height:100%">
+  <div class="card border border-secondary mr-4" style="width:100px;background-color:#162b45;">
+    <img class="card-img-top mx-auto p-3" src="https://preview.colorlib.com/theme/kanox/img/team/xteam_1.png.pagespeed.ic.o-l0hoFlDc.webp" alt="Card image" style="width:100%">
+    <div class="card-body text-center">
+      <h4 class="card-title text-light mb-2"style="font-size:20px;">Jhosef Willams</h4>
+      <p class="card-text "style="font-size:12px;color: #abb2ba;">Web developer</p>
+      <div class="row text-muted justify-content-center mb-3" style="font-size:14px;">
+<a href="#"><p class=" mr-2 ml-0 mb-0"style="color: #abb2ba;">facebok</p></a><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor" class="bi bi-circle-fill mt-2 mr-2" viewBox="0 0 16 16">
+  <circle cx="8" cy="8" r="8"/></svg>
+<a href="#"><p class=" mr-2 ml-0 mb-0" style="color: #abb2ba;">twitter</p></a><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor" class="bi bi-circle-fill mt-2 mr-2" viewBox="0 0 16 16">
+  <circle cx="8" cy="8" r="8"/></svg>
+<a href="#"><p class=" mr-2 ml-0 mb-0" style="color: #abb2ba;">skype</p></a>
+</div>
+    </div>
+  </div>
+  <div class="card border border-secondary mr-4" style="width:100px;background-color:#162b45;">
+    <img class="card-img-top mx-auto p-3" src="https://preview.colorlib.com/theme/kanox/img/team/xteam_2.png.pagespeed.ic.8QetLGsyIq.webp" alt="Card image" style="width:100%">
+    <div class="card-body text-center">
+      <h4 class="card-title  text-light mb-2"style="font-size:20px;">Daniel Hancock</h4>
+       <p class="card-text "style="font-size:12px;color: #abb2ba;">Web developer</p>
+      <div class="row  text-muted justify-content-center mb-3" style="font-size:14px;">
+<a href="#"><p class=" mr-2 ml-0 mb-0"style="color: #abb2ba;" >facebok</p></a><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor" class="bi bi-circle-fill mt-2 mr-2" viewBox="0 0 16 16">
+  <circle cx="8" cy="8" r="8"/></svg>
+<a href="#"><p class=" mr-2 ml-0 mb-0" style="color: #abb2ba;">twitter</p></a><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor" class="bi bi-circle-fill mt-2 mr-2" viewBox="0 0 16 16">
+  <circle cx="8" cy="8" r="8"/></svg>
+<a href="#"><p class=" mr-2 ml-0 mb-0"style="color: #abb2ba;" >skype</p></a>
+</div>
+    </div>
+  </div>
+  <div class="card border border-secondary mr-4" style="width:100px;background-color:#162b45;">
+    <img class="card-img-top mx-auto p-3" src="https://preview.colorlib.com/theme/kanox/img/team/xteam_3.png.pagespeed.ic.IzxZieBYUk.webp" alt="Card image" style="width:100%">
+    <div class="card-body text-center">
+      <h4 class="card-title  text-light mb-2"style="font-size:20px;">Bernard Perales</h4>
+       <p class="card-text "style="font-size:12px;color: #abb2ba;">Web developer</p>
+      <div class="row text-muted justify-content-center mb-3" style="font-size:14px;">
+<a href="#"><p class="mr-2 ml-0 mb-0" style="color: #abb2ba;">facebok</p></a><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor" class="bi bi-circle-fill mt-2 mr-2" viewBox="0 0 16 16">
+  <circle cx="8" cy="8" r="8"/></svg>
+<a href="#"><p class=" mr-2 ml-0 mb-0" style="color: #abb2ba;">twitter</p></a><svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="currentColor" class="bi bi-circle-fill mt-2 mr-2" viewBox="0 0 16 16">
+  <circle cx="8" cy="8" r="8"/></svg>
+<a href="#"><p class=" mr-2 ml-0 mb-0" style="color: #abb2ba;">skype</p></a>
+</div>
+    </div>
+  </div>
+  
+</div>
+</div>
+<div class=" mt-5 mb-5 pt-5 pb-3">
+<p class="text-center mb-2 font-weight-bold" style="font-size:12px;color: #ff1481;">LATEST NEWS </p>
+<h2 class="text-center font-weight-bolder"style="font-size:30px;color:#112e41;"><b>We Have True Story</b></h2>
+</div>
+
+
+<div class="container mt-5 mb-5">
+<div class="row justify-content-center">
+</div>
+<div class="row">
+<div class="col">
+<div class="card rounded-0">
+<img src="https://preview.colorlib.com/theme/kanox/img/blog/xblog_1.png.pagespeed.ic.4i1ZD1WxAw.webp" class="card-img-top">
+<div class="card-body ">
+<small class="font-weight-normal text-secondary"style="font-size:15px;">Technology  | <span>  March 30, 2019</span></small>
+<h3 class="card-title mt-2 font-weight-bold"style="font-size:18px;line-height:1.4;">Seasons Form Upon Days May Wont Bring Given Herb Sixth</h3>
+<ul class="row pl-3 "style="list-style-type:none;">
+<li> <svg class="mr-2"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+<g></g><path d="M17 1.5v7.969c0 0.827-0.673 1.5-1.5 1.5h-0.508v-1h0.508c0.276 0 0.5-0.225 0.5-0.5v-7.969c0-0.275-0.224-0.5-0.5-0.5h-14c-0.276 0-0.5 0.225-0.5 0.5v7.969c0 0.275 0.224 0.5 0.5 0.5h1.5v2.892l1.779-1.569 0.661 0.75-3.44 3.035v-4.108h-0.5c-0.827 0-1.5-0.673-1.5-1.5v-7.969c0-0.827 0.673-1.5 1.5-1.5h14c0.827 0 1.5 0.673 1.5 1.5zM14.020 9.54v3.043c0 0.827-0.673 1.5-1.5 1.5h-0.5v3.064l-3.667-3.064h-0.853c-0.827 0-1.5-0.673-1.5-1.5v-3.043c0-0.827 0.673-1.5 1.5-1.5h5.020c0.827 0 1.5 0.673 1.5 1.5zM13.020 9.54c0-0.275-0.224-0.5-0.5-0.5h-5.020c-0.276 0-0.5 0.225-0.5 0.5v3.043c0 0.275 0.224 0.5 0.5 0.5h1.217l2.303 1.926v-1.926h1.5c0.276 0 0.5-0.225 0.5-0.5v-3.043z" fill="#ff1481" />
+</svg><small class="font-weight-normal text-secondary"style="font-size:14px;">4 Comments</small></li>
+<li> <svg class="mr-2 ml-5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+<g>
+</g>
+	<path d="M16.965 8.817c-1.284-3.267-4.687-5.463-8.465-5.463s-7.181 2.196-8.465 5.463c-0.046 0.117-0.046 0.248 0 0.365 1.285 3.268 4.687 5.464 8.465 5.464s7.18-2.195 8.465-5.463c0.047-0.118 0.047-0.248 0-0.366zM8.5 13.646c-3.298 0-6.269-1.859-7.459-4.646 1.189-2.787 4.16-4.646 7.459-4.646s6.27 1.859 7.459 4.646c-1.19 2.786-4.161 4.646-7.459 4.646zM8.5 5.357c-2.009 0-3.643 1.634-3.643 3.643s1.634 3.643 3.644 3.643c2.008 0 3.643-1.634 3.643-3.643s-1.635-3.643-3.644-3.643zM8.5 11.643c-1.458 0-2.644-1.186-2.644-2.643s1.187-2.643 2.644-2.643c1.457 0 2.643 1.186 2.643 2.643s-1.185 2.643-2.643 2.643zM8.5 7.643c-0.748 0-1.357 0.609-1.357 1.357s0.609 1.357 1.357 1.357 1.357-0.609 1.357-1.357-0.609-1.357-1.357-1.357zM8.5 9.357c-0.197 0-0.357-0.16-0.357-0.357s0.16-0.357 0.357-0.357 0.357 0.16 0.357 0.357-0.16 0.357-0.357 0.357z" fill="#ff1481" />
+</svg><small class="font-weight-normal text-secondary"style="font-size:14px;">10 View</small></li>
+</ul>
+</div>
+
+</div>
+</div>
+<div class="col">
+<div class="card rounded-0">
+<img src="https://preview.colorlib.com/theme/kanox/img/blog/xblog_2.png.pagespeed.ic.XA2g8u4-F0.webp" class="card-img-top">
+<div class="card-body">
+<small class="font-weight-normal text-secondary"style="font-size:15px;">Technology  | <span>  March 30, 2019</span></small>
+<h3 class="card-title mt-2 font-weight-bold"style="font-size:18px;line-height:1.4;">Very And Third Him Beginning Signs Hath Subdue Make
+</h3>
+
+<ul class="row pl-3"style="list-style-type:none;">
+<li> <svg class="mr-2"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+<g></g><path d="M17 1.5v7.969c0 0.827-0.673 1.5-1.5 1.5h-0.508v-1h0.508c0.276 0 0.5-0.225 0.5-0.5v-7.969c0-0.275-0.224-0.5-0.5-0.5h-14c-0.276 0-0.5 0.225-0.5 0.5v7.969c0 0.275 0.224 0.5 0.5 0.5h1.5v2.892l1.779-1.569 0.661 0.75-3.44 3.035v-4.108h-0.5c-0.827 0-1.5-0.673-1.5-1.5v-7.969c0-0.827 0.673-1.5 1.5-1.5h14c0.827 0 1.5 0.673 1.5 1.5zM14.020 9.54v3.043c0 0.827-0.673 1.5-1.5 1.5h-0.5v3.064l-3.667-3.064h-0.853c-0.827 0-1.5-0.673-1.5-1.5v-3.043c0-0.827 0.673-1.5 1.5-1.5h5.020c0.827 0 1.5 0.673 1.5 1.5zM13.020 9.54c0-0.275-0.224-0.5-0.5-0.5h-5.020c-0.276 0-0.5 0.225-0.5 0.5v3.043c0 0.275 0.224 0.5 0.5 0.5h1.217l2.303 1.926v-1.926h1.5c0.276 0 0.5-0.225 0.5-0.5v-3.043z" fill="#ff1481" />
+</svg><small class="font-weight-normal text-secondary"style="font-size:14px;">4 Comments</small></li>
+<li> <svg class="mr-2 ml-5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+<g>
+</g>
+	<path d="M16.965 8.817c-1.284-3.267-4.687-5.463-8.465-5.463s-7.181 2.196-8.465 5.463c-0.046 0.117-0.046 0.248 0 0.365 1.285 3.268 4.687 5.464 8.465 5.464s7.18-2.195 8.465-5.463c0.047-0.118 0.047-0.248 0-0.366zM8.5 13.646c-3.298 0-6.269-1.859-7.459-4.646 1.189-2.787 4.16-4.646 7.459-4.646s6.27 1.859 7.459 4.646c-1.19 2.786-4.161 4.646-7.459 4.646zM8.5 5.357c-2.009 0-3.643 1.634-3.643 3.643s1.634 3.643 3.644 3.643c2.008 0 3.643-1.634 3.643-3.643s-1.635-3.643-3.644-3.643zM8.5 11.643c-1.458 0-2.644-1.186-2.644-2.643s1.187-2.643 2.644-2.643c1.457 0 2.643 1.186 2.643 2.643s-1.185 2.643-2.643 2.643zM8.5 7.643c-0.748 0-1.357 0.609-1.357 1.357s0.609 1.357 1.357 1.357 1.357-0.609 1.357-1.357-0.609-1.357-1.357-1.357zM8.5 9.357c-0.197 0-0.357-0.16-0.357-0.357s0.16-0.357 0.357-0.357 0.357 0.16 0.357 0.357-0.16 0.357-0.357 0.357z" fill="#ff1481" />
+</svg><small class="font-weight-normal text-secondary"style="font-size:14px;">10 View</small></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="card rounded-0">
+<img src="https://preview.colorlib.com/theme/kanox/img/blog/xblog_3.png.pagespeed.ic.7ZGDR_cCHj.webp" class="card-img-top">
+<div class="card-body">
+<small class="font-weight-normal text-secondary"style="font-size:15px;">Technology  | <span>  March 30, 2019</span></small>
+<h3 class="card-title mt-2 font-weight-bold"style="font-size:18px;line-height:1.4;">Seasons Form Upon Days May Wont Bring Given Herb Sixth</h3>
+<ul class="row pl-3"style="list-style-type:none;">
+<li><svg class="mr-2"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+<g></g><path d="M17 1.5v7.969c0 0.827-0.673 1.5-1.5 1.5h-0.508v-1h0.508c0.276 0 0.5-0.225 0.5-0.5v-7.969c0-0.275-0.224-0.5-0.5-0.5h-14c-0.276 0-0.5 0.225-0.5 0.5v7.969c0 0.275 0.224 0.5 0.5 0.5h1.5v2.892l1.779-1.569 0.661 0.75-3.44 3.035v-4.108h-0.5c-0.827 0-1.5-0.673-1.5-1.5v-7.969c0-0.827 0.673-1.5 1.5-1.5h14c0.827 0 1.5 0.673 1.5 1.5zM14.020 9.54v3.043c0 0.827-0.673 1.5-1.5 1.5h-0.5v3.064l-3.667-3.064h-0.853c-0.827 0-1.5-0.673-1.5-1.5v-3.043c0-0.827 0.673-1.5 1.5-1.5h5.020c0.827 0 1.5 0.673 1.5 1.5zM13.020 9.54c0-0.275-0.224-0.5-0.5-0.5h-5.020c-0.276 0-0.5 0.225-0.5 0.5v3.043c0 0.275 0.224 0.5 0.5 0.5h1.217l2.303 1.926v-1.926h1.5c0.276 0 0.5-0.225 0.5-0.5v-3.043z" fill="#ff1481" />
+</svg><small class="font-weight-normal text-secondary"style="font-size:14px;">4 Comments</small></li>
+<li> <svg class="mr-2 ml-5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+<g>
+</g>
+	<path d="M16.965 8.817c-1.284-3.267-4.687-5.463-8.465-5.463s-7.181 2.196-8.465 5.463c-0.046 0.117-0.046 0.248 0 0.365 1.285 3.268 4.687 5.464 8.465 5.464s7.18-2.195 8.465-5.463c0.047-0.118 0.047-0.248 0-0.366zM8.5 13.646c-3.298 0-6.269-1.859-7.459-4.646 1.189-2.787 4.16-4.646 7.459-4.646s6.27 1.859 7.459 4.646c-1.19 2.786-4.161 4.646-7.459 4.646zM8.5 5.357c-2.009 0-3.643 1.634-3.643 3.643s1.634 3.643 3.644 3.643c2.008 0 3.643-1.634 3.643-3.643s-1.635-3.643-3.644-3.643zM8.5 11.643c-1.458 0-2.644-1.186-2.644-2.643s1.187-2.643 2.644-2.643c1.457 0 2.643 1.186 2.643 2.643s-1.185 2.643-2.643 2.643zM8.5 7.643c-0.748 0-1.357 0.609-1.357 1.357s0.609 1.357 1.357 1.357 1.357-0.609 1.357-1.357-0.609-1.357-1.357-1.357zM8.5 9.357c-0.197 0-0.357-0.16-0.357-0.357s0.16-0.357 0.357-0.357 0.357 0.16 0.357 0.357-0.16 0.357-0.357 0.357z" fill="#ff1481" />
+</svg><small class="font-weight-normal text-secondary"style="font-size:14px;">10 View</small></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+ <!-- footer section -->
+    <footer class="py-2 " style=" position: absolute; width: 100%; background-color: rgba(18, 44, 68)">
+        <div class="container p-5">
+            <div class="row" style=" font-size: 11px; color: rgba(255, 255, 255, 0.623);">
+                <div class="col-md-4">
+                    <img src="https://bitbucket.org/Abdulrahman_Albakkar/final-project/raw/a74685576ad966b0d9ed3bfe038bed6a688427c7/footer-logo.png" style="width: 160px;">
+                    <p class="px-2 py-3">But when shot real her. Chamber her one<br> visite removal six sending himself boys<br> scot exquisite existend an </p>
+                    <p class="px-2">But when shot real her hamber her</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 style="font-weight: bold; color: white; font-stretch: ultra-condensed;">Newsletter</h3>
+                    <p>Stay updated with our latest trends Seed heaven so said <br>place winged over given forth fruit. </p>
+                    <br> 
+                     <div class="row pt-1 pb-3 px-1 ml-1" style="border:1px solid grey;  width: 85%; height: 21%; padding-left: 2%;">
+                        <div class="col-9">    
+                            <input type="text" class="form-control btn-secondary border-0" 
+                            style="background-color:rgba(18, 44, 68);" placeholder="Enter email address" id="usr" name="username">
+                        </div>
+                        <div class="col-3">    
+                            <button type="button" class="mx-3" style="padding-top: 1%; width: 100%; height: 100%; border-color:rgb(238, 11, 132);  ;  
+                            background-color:rgb(238, 11, 132);" ><i class="bi bi-chevron-right fa-lg text-white py-3"></i></button>
+                        </div>
+                    </div>
+                    <a href="https://facebook.com/" style="text-decoration: none;" class="fab fa-facebook-f text-light fa-lg pt-4 text-muted"></a>
+                    <a href="https://twitter.com/" style="text-decoration: none;" class="fab fa-twitter text-light fa-lg p-4 text-muted"></a>
+                    <a href="https://Instagram.com/" style="text-decoration: none;" class="fab fa-instagram text-light fa-lg pr-4 text-muted"></a>
+                    <a href="https://skype.com/" style="text-decoration: none;" class="fab fa-skype text-light fa-lg text-muted"></a>
+                </div>
+
+
+                <div class="col-md-4">
+                    <h3 style="font-weight: bold; color: white; font-stretch: ultra-condensed;">Instagram</h3>
+                    <img src="https://bitbucket.org/Abdulrahman_Albakkar/final-project/raw/a74685576ad966b0d9ed3bfe038bed6a688427c7/footer-photo-group.png" style="width: 70%; height: 65%;">
+                </div>
+            </div>  
+        </div>
+        
+        <hr style="width: 100%;  border-top:1px dotted rgba(255, 255, 255, 0.322);" >
+        <p class="p-2" style="text-align: center; color: rgba(255, 255, 255, 0.479);">
+        Copyright ©2021 All rights reserved | This  template is made with <span><i class="fas fa-heart"></i></span>
+        by <a style="color: deeppink;" href="https://colorlib.com/">Colorlib</a> </p>        
+    </footer> 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</div>
+</body>
+
+</html>
